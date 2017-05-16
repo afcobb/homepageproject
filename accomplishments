@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Background</title>
+<title>Accomplishments</title>
 <style>
 	h3 {font-family: Helvetica, Arial;
 	font-size: 16pt;
@@ -13,7 +13,7 @@ body {font-family: Helvetica, Arial;
 }
 </style>
 </head>
-<h3>A bit about me...</h3>
+<h3>A bit about my work...</h3>
 <body>
 <p>For the past six years, I've taught English and English as a Second Language at the undergraduate level, working on staff at both University of Cincinnati and Xavier University. I also work as a freelance copywriter and editor in sectors such as e-learning, retail, and PR. I own and curate an independent record label which publishes music, film, and literature and produce music under my own name. Currently, I'm learning .net programming language to change paths to IT work.</p>
 <button onclick="goBack()">Go Back</button>
