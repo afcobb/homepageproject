@@ -2,6 +2,12 @@
 <html>
 <head>
 <title>Accomplishments</title>
+ <script src="http://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript"></script> 
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet"></link>
+	<script lang="javascript">
+		$().ready(function() {
+					});
+	</script>
 <style>
 	h3 {font-family: Helvetica, Arial;
 	font-size: 16pt;
@@ -13,15 +19,16 @@ body {font-family: Helvetica, Arial;
 }
 </style>
 </head>
-<h3>A bit about my work...</h3>
+<h3><b>A bit about my work...</b></h3>
 <body>
 	<span><a href="https://www.discogs.com/artist/763002-Alex-Cobb" target="blank">Music</span><br /></a>
 	<span><a href="Cobb_Portfolio 2016.zip">Writing Portfolio</a></span><br />
-	<span>Coding Projects</span>
+	<span><a href="https://github.com/afcobb" target="blank">Coding Projects</span>
 	<br />
 	<br />
-<button onclick="goBack()">Go Back</button>
-
+	<p align="center">
+<button onclick="goBack()" class="btn btn-link">Go Back</button>
+</p>
 <script>
 function goBack() {
     window.history.back();

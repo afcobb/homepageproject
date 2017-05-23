@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Resume</title>
 	<link href="main.css" type="text/css" rel="stylesheet" />
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript"></script> 
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" type="text/css" rel="stylesheet"></link>
+	<script lang="javascript">
+		$().ready(function() {
+
+	});
+	</script>
 </head>
 <body>
-<p id="resume">RESUME</p>
-<p class="sectionholder">Contact</p>
-	<div class= "indented">
-	<span>Alex Cobb</span><br />
-	<span>422 Ward Ave.</span><br />
-	<span>Bellevue, KY 41073</span>
-	</div>
+<br />
+<br />
+<br />
+<br />
+<address>
+  <strong>Alex Cobb</strong><br>
+  422 Ward Ave.<br>
+  Bellevue, KY 41073<br>
+  (513-592-0744) <br>
+   <a href="mailto:#">afcobb@gmail.com</a>
+</address>
+	<br />
+	<br />
 <div>
-<p class="sectionholder">Experience</p>
+<p class="lead">Experience</p>
 	<div class="indented">
 	<p>Undergraduate English/ESL Instructor, freelance copywriter and editor, independent record producer.</p></div>
 </div>
-<p class="sectionholder">Education</p>
-<div class="indented">
-<table class="table">
- <thead>
-	<tr><td>School</td><td>Degree</td><td>Location</td></tr>
-	</thead>
-	<tbody>
-	<tr><td>University of Cincinnati</td><td>MA Comparative Literature</td><td>Cincinnati, OH</td></tr>
-	<tr><td>Xavier University</td><td>BA Philosophy</td><td>Cincinnati, OH</td></tr>
-	</tbody>
-	</div>
-	</table>
-<button onclick="goBack()">Go Back</button>
-
+<p class="lead">Education</p>
+	<div class="indented">
+	<p>MA, Comparative Literature (University of Cincinnati, 2011)<br />
+	BA, Philosophy and English (Xavier University, 2008)
+	</p>
+</div>
+<p class="lead">Selected Publications</p>
+	<div class="indented">
+	<p>"Chantepleure" LP/Digital (Students of Decay, 2015)<br />
+	"Marigold and Cable" LP/Digital (Shelter Press, 2014)<br />
+	"Works for Cassette" LP/Digital (The Helen Scarsdale Agency, 2014)<br />
+	"Cinema of Pre-Predication" Digital (Senses of Cinema, 2007)
+	</p>
+</div>
+<p align=center>
+<button onclick="goBack()" class="btn btn-link">Go Back</button></p>
 <script>
 function goBack() {
     window.history.back();
